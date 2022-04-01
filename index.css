@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .img {
+    background-image: url(ネタばらし.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+  }
+  
+  .img::before {
+    content: '';
+    display: block;
+    padding-top: 50%;
+  }
